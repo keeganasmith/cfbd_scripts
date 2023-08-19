@@ -19,7 +19,9 @@ pip install -r requirements.txt
 ```
 ## Usage  
 
-To run the program which checks for duplicates simply type:  
+### Duplicates  
+
+To run the program:
 
 ```
 python3 find_dups.py  
