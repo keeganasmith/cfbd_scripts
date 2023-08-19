@@ -32,9 +32,11 @@ This will activate the CLI and will prompt you for various parameters.
 For the endpoint, enter the path after the '/', so for example the /roster endpoint is just `roster` and the /games/media endpoint is just `games/media`.  
 For the parameters, just enter the parameters in json format. So for example if we only want data from 2023, you would enter: `{"year":2023}`.  
 Next you will be prompted to either  
+
 1. choose fields to include  
 2. choose fields to exclude  
 3. use all fields  
+  
 If you pick 1., it will return all of the records which have the same fields for the fields you specified.  
 For example, if we are in the rosters endpoint maybe I want to find all of the records where the players have the same first and last names. In this case I would choose option 1 and enter `first_name`, `last_name` as fields to include.  
 If you pick 2., it will return all of the records which have the same fields ignoring the fields you specify.  
